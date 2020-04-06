@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View 2</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header_logo" id="logo">
+          <!-- Logo carga como backgorund -->
+        </div>
+      </header>
+      <main class="main" id="main">
+        <form action="" class="main_form--view2">
+          <h2 class="main_form--view2-title">
+            ¿Solo te falta un paso mas?
+          </h2>
+          <p class="main_form--view2-text">
+            ¿Sobre que productos nos querés consultar?
+          </p>
+          <!-- Select -->
+          <div class="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" class="radio" id="film" name="category" />
+                <label for="film">Tarjetas Galicia</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="art" name="category" />
+                <label for="art">Cuentas Galicia</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="music" name="category" />
+                <label for="music">Préstamos Personales</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="travel" name="category" />
+                <label for="travel">Inversiones y Seguros</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="sports" name="category" />
+                <label for="sports">Puentos Quiero!</label>
+              </div>
+            </div>
+
+            <div class="selected">
+              Seleccioná un tipo de producto
+            </div>
+          </div>
+          <!-- End Select -->
+          <p class="main_form--view2-text">
+            Completá los siguientes campos
+          </p>
+
+          <label for="client" class="main_form-label">
+            <input
+              class="main_form-input"
+              type="text"
+              id="client"
+              placeholder="Tipo de cliente"
+              required
+              autocomplete="off"
+            />
+          </label>
+          <label for="dni" class="main_form-label">
+            <input
+              class="main_form-input"
+              type="text"
+              id="dni"
+              placeholder="Tipo de cliente"
+              required
+              autocomplete="off"
+            />
+          </label>
+          <button type="submit" id="" class="main_form--view2-button">
+            <i class="fas fa-chevron-right"></i>
+            Enviar consulta
+          </button>
+        </form>
+      </main>
+      <footer class="footer" id="footer">
+        <img
+          src="assets/img/logo_liveSupport.png"
+          alt="Logo LiveSupport"
+          class="footer_logo"
+          width="90px"
+        />
+      </footer>
+    </div>
+  </body>
+  <script src="assets/js/select.js"></script>
+</html>

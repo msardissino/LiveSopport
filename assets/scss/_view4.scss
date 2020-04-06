@@ -1,0 +1,55 @@
+/* ESTILOS VISTA NUMERO 4*/
+.query_section {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.query_section--video1 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+.query_section--video2 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
+  top: 1rem;
+  right: 1rem;
+}
+.query_section--buttonFinalizar {
+  background-color: $buttonFinalizar;
+  border: none;
+  display: block;
+  width: 80%;
+  padding: 0.85rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 100;
+}
+.query_section--buttonFinalizar:hover {
+}
+.query_section--buttonFinalizar i {
+  margin-right: 1rem;
+}
+.query_section--buttonFinalizar:focus {
+  outline: 2px solid $header;
+}
+/* END ESTILOS VISTA NUMERO 4*/

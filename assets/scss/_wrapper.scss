@@ -1,0 +1,16 @@
+/* ESTILOS WRAPPER*/
+@media screen and (min-width: 411px) {
+  .wrapper {
+    width: 411px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+  }
+  .main {
+    background-color: #f0f0f0;
+  }
+  body {
+    background-color: #e0e0e0;
+  }
+}
+/* END ESTILOS WRAPPER*/

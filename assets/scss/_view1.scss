@@ -1,0 +1,63 @@
+/* ESTILOS VISTA NUMERO 1*/
+.main_form {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  min-height: 400px;
+}
+.main_form-title {
+  color: $header;
+  font-size: 1rem;
+}
+.main_form-text {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.main_form-input {
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eb1f2a;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.main_form-input::placeholder {
+  text-align: center;
+  color: #ccc;
+  text-transform: initial;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+.main_form-input:focus {
+  outline: 2px solid $header;
+}
+.main_form-button {
+  background-color: $header;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.main_form-button i {
+  margin-right: 1rem;
+}
+.main_form-button:focus {
+  outline: 2px solid $header;
+}
+/* END ESTILOS VISTA NUMERO 1*/

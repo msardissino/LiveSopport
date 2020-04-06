@@ -1,0 +1,48 @@
+/* ESTILOS VISTA NUMERO 6*/
+.social_section {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social_section--title {
+  color: $header;
+}
+.social_section--text {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+.social_section--boxRedes {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.social_section--boxRedes a {
+  width: 33%;
+  img {
+    max-width: 70px;
+  }
+}
+.social_section--buttonNuevaConsulta {
+  background-color: $header;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/* END ESTILOS VISTA NUMERO 6*/

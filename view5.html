@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View 5</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header_logo" id="logo">
+          <!-- Logo carga como backgorund -->
+        </div>
+      </header>
+      <main class="main" id="main">
+        <section class="opinion_section">
+          <h2 class="opinion_section--title">
+            ¡Consulta finalizada!
+          </h2>
+          <p class="opinion_section--text">
+            ¿Qué te pareció nuestro servicio?
+          </p>
+          <form action="" class="option_section--form">
+            <div class="opinion_section--boxOptions">
+              <input type="radio" name="option" id="veryGood" />
+              <label for="veryGood">
+                <img src="assets/img/very-good-icon-copia.png" alt="" />
+                <span>Muy Bueno</span>
+              </label>
+              <input type="radio" name="option" id="good" />
+              <label for="good">
+                <img src="assets/img/good-icon.png" alt="" />
+                <span>Bueno</span>
+              </label>
+              <input type="radio" name="option" id="regular" />
+              <label for="regular">
+                <img src="assets/img/regular-icon.png" alt="" />
+                <span>Regular</span>
+              </label>
+              <input type="radio" name="option" id="bad" />
+              <label for="bad">
+                <img src="assets/img/bad-icon.png" alt="" />
+                <span>Malo</span>
+              </label>
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="option_section--form-textarea"
+            ></textarea>
+            <button class="option_section--form-buttonSend">
+              <i class="fas fa-chevron-right"></i>Enviar
+            </button>
+          </form>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <img
+          src="assets/img/logo_liveSupport.png"
+          alt="Logo LiveSupport"
+          class="footer_logo"
+          width="90px"
+        />
+      </footer>
+    </div>
+  </body>
+  <script src="assets/js/select.js"></script>
+</html>

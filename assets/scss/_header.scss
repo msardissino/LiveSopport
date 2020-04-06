@@ -1,0 +1,46 @@
+/* Estilos header + Logotipo en circulo*/
+.header {
+  background-color: $header;
+  width: 100%;
+  height: 150px;
+  min-height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: url(../img/top-background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  .header_logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 1em;
+    bottom: -60px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, white 50%, #c60617 50%);
+    &::before {
+      content: "";
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      background: $header content-box;
+      background-image: url(../img/Logo-Banco-Galicia.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      padding: 0.5em;
+      box-sizing: border-box;
+    }
+  }
+  .logo_img {
+    width: 100%;
+    position: relative;
+    z-index: 150;
+  }
+}
+/* FIN Estilos header + Logotipo en circulo*/

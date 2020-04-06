@@ -1,0 +1,105 @@
+.opinion_section {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  min-height: 400px;
+}
+.opinion_section--title {
+  color: $header;
+}
+.opinion_section--text {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.option_section--form {
+  width: 100%;
+}
+.opinion_section--boxOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.opinion_section--boxOptions label {
+  width: 24%;
+  padding: 0.5rem;
+  position: relative;
+}
+.opinion_section--boxOptions label img {
+  max-width: 100%;
+}
+.opinion_section--boxOptions label span {
+  color: gray;
+  font-size: 0.5rem;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.opinion_section--boxOptions label input {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  z-index: 100;
+}
+.opinion_section--boxOptions input:checked + label {
+  border: 3px solid orange;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.opinion_section--boxOptions input:checked + label span {
+  color: orange;
+}
+.opinion_section--boxOptions input {
+  display: none;
+}
+.option_section--form-textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 200px;
+  max-height: 200px;
+  min-height: 200px;
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.7rem;
+  text-align: left;
+  color: #eb1f2a;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.option_section--form-textarea:focus {
+  outline: 2px solid $header;
+}
+.option_section--form-buttonSend {
+  background-color: $header;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.option_section--form-buttonSend i {
+  margin-right: 1rem;
+}
+.option_section--form-buttonSend:focus {
+  outline: 2px solid $header;
+}

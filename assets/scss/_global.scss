@@ -1,0 +1,22 @@
+/* Estilos globales*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: auto;
+  min-height: 100vh;
+  background-color: $backgorundBody;
+  font-family: "Poppin";
+  position: relative;
+}
+main {
+  padding-top: 5rem;
+  width: 100%;
+  min-height: 75vh;
+  padding-bottom: 50px;
+  // min-height: 70%;
+}
+/* FIN Estilos globales */

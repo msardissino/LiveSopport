@@ -1,0 +1,89 @@
+/* ESTILOS VISTA NUMERO 3*/
+.waiting_list {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.waiting_list--imgSmile {
+  max-width: 60px;
+}
+.waiting_list--title {
+  color: #fe6601;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.waiting_list--text {
+  color: #444;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+.waiting_list--text.c-secondary {
+  color: #999;
+}
+.progress {
+  margin: 2rem 0;
+  background-color: #ccc;
+  border-radius: 25px;
+  width: 100%;
+  height: 1rem;
+}
+.progress_bar {
+  position: relative;
+  border-radius: 25px;
+  //   width: 50%;
+  height: 100%;
+  background: rgb(255, 170, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 0, 0.85) 40%,
+    rgba(255, 102, 0, 0.85) 100%
+  );
+  //   transition: width 0.8s;
+  animation-name: infinite;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.progress_bar i {
+  color: #222;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  top: -100%;
+}
+@keyframes infinite {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.waiting_list--buttonCancel {
+  background-color: $buttonCancel;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.waiting_list--buttonCancel i {
+  margin-right: 1rem;
+}
+.waiting_list--buttonCancel:focus {
+  outline: 2px solid $header;
+}
+/* END ESTILOS VISTA NUMERO 3*/
